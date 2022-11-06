@@ -1,2 +1,2 @@
 # CutieHack2022
-monkey bot
+discord monkee bot
