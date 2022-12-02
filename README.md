@@ -12,4 +12,4 @@ monkey song,
 roll number
 
 
-main is the only branch we need
+main is the only branch we need (i have no idea if this bot even still works because the way i uploaded it to github is kinda cursed)
