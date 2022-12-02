@@ -1013,7 +1013,7 @@ client.on('messageCreate', (message) =>
         
     //     })();
 
-        message.channel.send(String(monkeys[Math.floor(Math.random() * 947)]));
+        message.channel.send(String(monkeys[Math.floor(Math.random() * monkeys.length)]));
 
     }
     else if (message.content == '🍌')
@@ -1086,7 +1086,7 @@ client.on('messageCreate', (message) =>
             "Grooming is a monkey’s way to express affection to another. They also often make peace with other monkeys by offering to groom their fur. Grooming is an essential part of socializing amongst monkeys."
         ];
 
-        message.channel.send(String(monkeyFacts[Math.floor(Math.random() * 60)]));
+        message.channel.send(String(monkeyFacts[Math.floor(Math.random() * monkeyFacts.length)]));
     }
     else if (message.content == 'monkey song')
     {
@@ -1191,7 +1191,7 @@ client.on('messageCreate', (message) =>
         
         "Where's the Monkey? - Kids TV 123 · 2018"
         ];
-        message.channel.send(String(monkeySongs[Math.floor(Math.random() * 49)]));
+        message.channel.send(String(monkeySongs[Math.floor(Math.random() * monkeySongs.length)]));
     }
     else if (message.content.startsWith('roll'))
     {
